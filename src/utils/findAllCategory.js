@@ -1,5 +1,5 @@
 export const findAllCategory = (arr) => {
-    let allCategory = []
+    let allCategory = ['all']
 
     arr.forEach(el => {
         if (allCategory.includes(el.category)) {

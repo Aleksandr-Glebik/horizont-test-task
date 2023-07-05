@@ -1,12 +1,15 @@
 import React from 'react'
 import styles from './Main.module.css'
 import { dataPhotos } from '../../data/dataPhotos'
+import { filterPhotoCategory } from '../../utils/filterPhotoCategory'
 
-const Main = ({ showImgCard }) => {
+const Main = ({ showImgCard, category }) => {
+  const arrPhotos = filterPhotoCategory(category, dataPhotos)
+
   return (
     <div className={styles.main}>
         {
-          dataPhotos.map(el => {
+          arrPhotos.map(el => {
             return (
               <img
                 className={styles.img}

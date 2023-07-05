@@ -9,6 +9,8 @@ import { dataPhotos } from '../../data/dataPhotos'
 const Layout = () => {
   const [card, setCard] = useState(null)
   const [cardStatus, setCardStatus] = useState('hide')
+  const [category, setCategory] = useState('')
+  console.log('category', category)
 
   const showImgCard = (id) => {
     // console.log('id', id)
@@ -18,9 +20,12 @@ const Layout = () => {
 
   return (
     <div className={styles.layout}>
-        <Header />
+        <Header
+          setCategory={setCategory}
+        />
         <Main
           showImgCard={showImgCard}
+          category={category}
         />
         <ImgCard
           card={card}
