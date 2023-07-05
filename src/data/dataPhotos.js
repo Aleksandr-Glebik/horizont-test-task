@@ -18,49 +18,49 @@ export const dataPhotos = [
         name: 'Белый лабрадор',
         description: 'Белый лабрадор в саду открывает посылку с Wildberis',
         path: imgWhiteDog,
-        category: 'animal'
+        category: 'animal',
     },
     {
         id: 2,
         name: 'Волк',
         description: 'Пара белых волков отдыхает на природе',
         path: imgWolf,
-        category: 'animal'
+        category: 'animal',
     },
     {
         id: 3,
         name: 'Джек Рассел Терьр',
         description: 'Джек Рассел Терьр позирует для постера фильма Маска',
         path: imgJackRussellTerrier,
-        category: 'animal'
+        category: 'animal',
     },
     {
         id: 4,
         name: 'Коричниевый лабрадор',
         description: 'Когда ты красивый пес, а твой хозяин фотограф на freelance, после 30 минут позирования в саду',
         path: imgBrownLabrador,
-        category: 'animal'
+        category: 'animal',
     },
     {
         id: 5,
         name: 'Кот под одеялом',
         description: 'Когда в пн утром звонит будильник, а тебе кажется, что сегодня суббота',
         path: imgCatOnTheBlanket,
-        category: 'animal'
+        category: 'animal',
     },
     {
         id: 6,
         name: 'Кот на пристани',
         description: 'Когда твой хозяин олигарх и ты идешь к нему на яхту',
         path: imgCatOnThePier,
-        category: 'animal'
+        category: 'animal',
     },
     {
         id: 7,
         name: 'Кот на диване',
         description: 'Когда к хозяйке приехала ее мама и зовет тебя к себе на ручки',
         path: imgCatOnTheCouch,
-        category: 'animal'
+        category: 'animal',
     },
     {
         id: 8,
