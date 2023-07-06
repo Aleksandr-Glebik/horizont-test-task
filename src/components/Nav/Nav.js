@@ -6,9 +6,8 @@ import { findAllCategory } from '../../utils/findAllCategory'
 
 const Nav = ({ setCategory, category }) => {
   const arrCategory = findAllCategory(dataPhotos)
-  
+
   const categoryClickHandler = (event) => {
-    // console.log('event', event.target.textContent)
     setCategory(event.target.textContent)
   }
 
