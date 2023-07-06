@@ -9,13 +9,11 @@ import { dataPhotos } from '../../data/dataPhotos'
 
 const Layout = () => {
   const [card, setCard] = useState(null)
-  const [cardStatus, setCardStatus] = useState(false)
   const [category, setCategory] = useState('')
   const [loading, setLoading] = useState(true)
 
   const showImgCard = (id) => {
     setCard(dataPhotos.find(item => item.id === id))
-    setCardStatus(true)
   }
 
   useEffect(() => {
@@ -52,8 +50,6 @@ const Layout = () => {
         <ImgCard
           card={card}
           setCard={setCard}
-          cardStatus={cardStatus}
-          setCardStatus={setCardStatus}
         />
     </div>
   )

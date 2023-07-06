@@ -25,7 +25,7 @@
 .title {
     width: 100%;
     padding: 8px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0);
     font-family: 'Ysabeau Infant', sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -45,7 +45,7 @@
 .text {
     width: 100%;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0);
     font-family: 'Ysabeau Infant', sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -59,10 +59,10 @@
 
 .svg {
     position: absolute;
-    top: 10%;
-    right: 2.5%;
-    width: 50px;
-    height: 50px;
+    top: 12px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
     background-color: rgba(0, 0, 0, 0.5);
     cursor: pointer;
     transition: all ease-in-out 0.35s;
