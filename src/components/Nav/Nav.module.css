@@ -19,7 +19,7 @@
     line-height: 36px;
     color: #fff;
     cursor: pointer;
-    transition: all ease-in-out 0.35s;
+    transition: color ease-in-out 0.35s;
 }
 
 .item:hover {
@@ -30,4 +30,8 @@
 }
 .item:active {
     color:rgba(156,252,248,1);
+}
+
+.active {
+    color:rgb(0, 255, 242);
 }

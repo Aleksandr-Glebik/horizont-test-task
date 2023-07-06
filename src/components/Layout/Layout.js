@@ -10,7 +10,7 @@ const Layout = () => {
   const [card, setCard] = useState(null)
   const [cardStatus, setCardStatus] = useState('hide')
   const [category, setCategory] = useState('')
-  console.log('category', category)
+  // console.log('category', category)
 
   const showImgCard = (id) => {
     // console.log('id', id)
@@ -22,6 +22,7 @@ const Layout = () => {
     <div className={styles.layout}>
         <Header
           setCategory={setCategory}
+          category={category}
         />
         <Main
           showImgCard={showImgCard}
