@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/horizont-test-task/static/css/main.b7eb6b74.css",
+    "main.js": "/horizont-test-task/static/js/main.e8358996.js",
+    "static/media/small-dog.jpg": "/horizont-test-task/static/media/small-dog.5e059bc4c930cafc028c.jpg",
+    "static/media/flowers.jpg": "/horizont-test-task/static/media/flowers.bea012580df3c3a7a3cc.jpg",
+    "static/media/forest.jpg": "/horizont-test-task/static/media/forest.b5e7d503badd92e8a868.jpg",
+    "static/media/cat-on-the-couch.jpg": "/horizont-test-task/static/media/cat-on-the-couch.7dce0fcd8e994541ed0a.jpg",
+    "static/media/fog.jpg": "/horizont-test-task/static/media/fog.797a285acd5960664aed.jpg",
+    "static/media/dog-on-box.jpg": "/horizont-test-task/static/media/dog-on-box.2a184caeafefa8a950ef.jpg",
+    "static/media/brown-dog.jpg": "/horizont-test-task/static/media/brown-dog.9e26b976de582ba59df5.jpg",
+    "static/media/cat-on-the-pier.jpg": "/horizont-test-task/static/media/cat-on-the-pier.0690c806a058578e6aeb.jpg",
+    "static/media/field.jpg": "/horizont-test-task/static/media/field.229f01d1866a5565e713.jpg",
+    "static/media/mountains.jpg": "/horizont-test-task/static/media/mountains.d9bdc204835015c6bc58.jpg",
+    "static/media/sea.jpg": "/horizont-test-task/static/media/sea.787a3a4b031a2021ed94.jpg",
+    "static/media/wolf.jpg": "/horizont-test-task/static/media/wolf.5d39210ccbc73249052f.jpg",
+    "static/media/cat-under-the-blanket.jpg": "/horizont-test-task/static/media/cat-under-the-blanket.5c70679de510f5f8d53b.jpg",
+    "index.html": "/horizont-test-task/index.html",
+    "static/media/close.svg": "/horizont-test-task/static/media/close.cd22cc1b89b4809d9a2dc897db9c8407.svg",
+    "main.b7eb6b74.css.map": "/horizont-test-task/static/css/main.b7eb6b74.css.map",
+    "main.e8358996.js.map": "/horizont-test-task/static/js/main.e8358996.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7eb6b74.css",
+    "static/js/main.e8358996.js"
+  ]
+}
